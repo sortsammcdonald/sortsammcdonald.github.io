@@ -13,3 +13,7 @@ You may be wondering what motivates me to study Deep Learning. Well I have been 
 As it happens I already have blog [link](https://sammcdonald.me/miscreviews). However I decided to make a separate one devoted (at least initially) to the fastai book, first because the authors provide an excellent guide on how to setup a blog via GitHub, which I'd not done before, and I feel the theme of my personal blog is quite different. Although I've not updated it in some time, that blog does, and will continue to, focus on book reviews. 
 
 Lastly, just a word on the format of this blog. My current intention is to write a post based on Chapter of the book and my answers to the quiz at the end of each section. There is also a separate section of this blog were I can post directly from any Jupyter notebook I've prepared. Again a useful guide to doing this can be found in the fastai book. It may be possible that I post both reflection and code separately or I may eventually just write the code with comment, but let's see how it goes for now.  
+
+## Practical Deep Learning Playsist
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
