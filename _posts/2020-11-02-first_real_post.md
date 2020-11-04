@@ -14,6 +14,4 @@ As it happens I already have blog [link](https://sammcdonald.me/miscreviews). Ho
 
 Lastly, just a word on the format of this blog. My current intention is to write a post based on Chapter of the book and my answers to the quiz at the end of each section. There is also a separate section of this blog were I can post directly from any Jupyter notebook I've prepared. Again a useful guide to doing this can be found in the fastai book. It may be possible that I post both reflection and code separately or I may eventually just write the code with comment, but let's see how it goes for now.  
 
-## Practical Deep Learning Playsist
-
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Link to Practical Deep Learning Playlist](https://www.youtube.com/embed/videoseries?list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM)
