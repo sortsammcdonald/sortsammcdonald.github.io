@@ -6,8 +6,9 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Fastai Learning 
-description: This blog is intended to help me (and hopefully the reader) better understand the concepts describe through the Fast.ai course and the accompanying book
+title: Quick Learning 
+description: Initially inspired by the Fastai Course, this blog was first intended to help me (and hopefully the reader) better understand the concepts described in there. Going forward I would like to incorporate ideas outside this text as I learn more about programming and related topics.
+
 github_username: sortsammcdonald 
 
 # Email and twitter are optional:
