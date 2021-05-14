@@ -1,7 +1,3 @@
-# Learning from fastai
+# Quick Learning
 
-Hello and welcome to this blog. It's purpose is to document my progress in online Fastai course and its accompanying book.
-
-![Image of fast.ai logo](images/logo.png)
-
-[link to fast.ai](https://www.fast.ai) 
+Inspired initially by the [fastai](https://www.fast.ai)  programme - this blog documents my learning in programming and related subjects
