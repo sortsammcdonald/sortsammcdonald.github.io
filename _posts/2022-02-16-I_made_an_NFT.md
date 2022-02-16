@@ -9,7 +9,7 @@ With artists [selling their work](https://www.theverge.com/2021/3/11/22325054/be
 
 Intrigued by the subject, and after investigating what all the fuss was about, I decided to create an NFT, you can see the result [here](https://opensea.io/BilliamFake). 
 
-And you can check out the code I wrote to generate the NFTs [here]()
+And you can check out the code I wrote to generate the NFTs [here](https://github.com/sortsammcdonald/mocku)
 
 Some context
 ---
