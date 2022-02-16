@@ -97,6 +97,6 @@ Post-script - what tools I used
 
 Just some closing notes on what tools I used to create my NFTs.
 
-- Bison App - This is a crypto exchange from the Stuttgart stock exchange and Solaris bank. I use this to buy and sell crypto currencies
-- Meta Mask - The app I used to register my account on Open Sea and accept Ethereum payments
-- Open Sea - A popular NFT exchange
+- [Bison App](https://bisonapp.com/en/) - This is a crypto exchange from the Stuttgart stock exchange and Solaris bank. I use this to buy and sell crypto currencies
+- [Meta Mask](https://metamask.io/) - The app I used to register my account on Open Sea and accept Ethereum payments
+- [Open Sea](https://opensea.io/) - A popular NFT exchange
