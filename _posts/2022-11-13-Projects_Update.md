@@ -1,4 +1,4 @@
-## Intro
+## Projects Update
 
 I've not posted in some time, but I have been working on some projects. Unfortunately, none of my efforts have coalesced into a fully fledge project that I can write up. However, I think surveying these efforts, explaining what I was trying to do and ultimately why they did not develop into complete programmes would be an interesting exercise for me and hopefully an interesting read for you.
 
