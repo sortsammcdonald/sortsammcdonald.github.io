@@ -10,13 +10,14 @@ title: Quick Learning
 description: My learning platform
 
 github_username: sortsammcdonald 
+repository:  sortsammcdonald/sortsammcdonald.github.io
 
 # Email and twitter are optional:
 email:
 twitter_username: wsmcd
 
 # Set this to true to get LaTeX math equation support
-use_math:
+use_math: 
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
