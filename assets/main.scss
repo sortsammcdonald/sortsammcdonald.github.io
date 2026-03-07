@@ -1,62 +1,204 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 
 @import "{{ site.theme }}";
 
+/* =========================
+   Base palette + typography
+   ========================= */
+
+:root {
+  --bg: #fcfcfc;
+  --text: #222;
+  --muted: #666;
+  --border: rgba(0, 0, 0, 0.12);
+  --border-soft: rgba(0, 0, 0, 0.08);
+  --code-bg: rgba(0, 0, 0, 0.03);
+  --accent: #2f5bff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Minima container */
+.wrapper {
+  max-width: 72ch;
+}
+
+/* Breathing room */
+.page-content {
+  padding: 2.5rem 1.25rem;
+}
+
+/* Reading comfort */
+.post-content,
+.page-content {
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+/* Headings rhythm */
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.page-content h2,
+.page-content h3,
+.page-content h4 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Links */
+a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.14em;
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+  min-height: auto;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.site-title {
+  float: none;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.custom-nav {
+  float: none;
+  display: flex;
+  align-items: right;
+  gap: 1rem;
+  line-height: 1.2;
+}
+
+.custom-nav .page-link {
+  margin: 0;
+  color: #444;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.custom-nav .page-link:hover {
+  text-decoration: underline;
+}
+
+/* Prevent Minima mobile menu styles from interfering */
+.site-nav {
+  position: static;
+  border: none;
+  background: transparent;
+}
+
+.site-nav .menu-icon {
+  display: none;
+}
+
+/* =========================
+   Images + captions
+   ========================= */
+
 .post img {
-        display: block;
-        border:1px solid #021a40;
-        vertical-align: top;
-        margin-left: auto;
-        margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.6rem auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.post figure {
+  margin: 2rem 0;
 }
 
 .post figcaption {
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.9rem;
   font-style: italic;
-  color: light-grey;
+  color: var(--muted);
+  margin-top: 0.6rem;
 }
 
-.language-python { border-left: 1px solid lightcoral; }
+/* =========================
+   Code blocks
+   ========================= */
 
-.language-python + .language-plaintext {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
-}
-.language-python + .language-plaintext code { background-color: white !important; }
-.language-python + .language-plaintext pre  { background-color: white !important; }
-
-// for Jupyter Notebook HTML Code Cells from https://www.fast.ai/public/css/hyde.css
-
-.input_area pre, .input_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-}
-.output_area pre, .output_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-        background-color: white !important;
-}
-.input_area pre {
-        border-left: 1px solid lightcoral;
-}
-.output_area pre {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
-}
-.codecell {
-        border-right: 2px solid lightgrey;
-        margin-bottom:1rem !important;
-        margin-top:1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
+code {
+  font-size: 0.95em;
 }
 
-.codecell table { width: auto; }
+p code,
+li code,
+figcaption code {
+  background: var(--code-bg);
+  padding: 0.12em 0.35em;
+  border-radius: 6px;
+  border: 1px solid var(--border-soft);
+}
 
+pre {
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  border: 1px solid var(--border-soft);
+}
+
+/* =========================
+   Other content polish
+   ========================= */
+
+blockquote {
+  border-left: 4px solid rgba(0, 0, 0, 0.18);
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--border-soft);
+  padding: 0.5rem 0.7rem;
+}
+
+/* =========================
+   Responsive header
+   ========================= */
+
+@media screen and (max-width: 600px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .custom-nav {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+}
