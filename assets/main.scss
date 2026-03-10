@@ -1,75 +1,21 @@
 ---
-# Only the main Sass file needs front matter
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "{{ site.theme }}";
+/* Load Minima first */
+@import "minima";
 
-/* =========================
-   Base palette + typography
-   ========================= */
+/* Your overrides below */
 
-:root {
-  --bg: #fcfcfc;
-  --text: #222;
-  --muted: #666;
-  --border: rgba(0, 0, 0, 0.12);
-  --border-soft: rgba(0, 0, 0, 0.08);
-  --code-bg: rgba(0, 0, 0, 0.03);
-  --accent: #2f5bff;
-}
-
-body {
-  background: var(--bg);
-  color: var(--text);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* Minima container */
+/* Layout polish */
 .wrapper {
   max-width: 72ch;
 }
 
-/* Breathing room */
-.page-content {
-  padding: 2.5rem 1.25rem;
-}
-
-/* Reading comfort */
-.post-content,
-.page-content {
-  font-size: 1.05rem;
-  line-height: 1.5;
-}
-
-/* Headings rhythm */
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.page-content h2,
-.page-content h3,
-.page-content h4 {
-  margin-top: 2.2rem;
-  margin-bottom: 0.8rem;
-}
-
-/* Links */
-a {
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.18em;
-}
-
-a:hover {
-  text-decoration-thickness: 0.14em;
-}
-
-/* =========================
-   Header
-   ========================= */
-
+/* Header layout: make title left, nav right */
 .site-header {
-  border-top: none;
-  border-bottom: 1px solid var(--border);
+  border-top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   min-height: auto;
 }
 
@@ -78,20 +24,19 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  padding: 0.9rem 0;
 }
 
-.site-title {
+/* Ensure Minima floats don't fight flex */
+.site-title,
+.site-nav {
   float: none;
-  line-height: 1.2;
-  margin: 0;
 }
 
+/* Nav spacing + style */
 .custom-nav {
-  float: none;
   display: flex;
-  align-items: right;
+  align-items: center;
   gap: 1rem;
   line-height: 1.2;
 }
@@ -107,90 +52,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Prevent Minima mobile menu styles from interfering */
-.site-nav {
-  position: static;
-  border: none;
-  background: transparent;
-}
-
-.site-nav .menu-icon {
-  display: none;
-}
-
-/* =========================
-   Images + captions
-   ========================= */
-
-.post img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 1.6rem auto;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-}
-
-.post figure {
-  margin: 2rem 0;
-}
-
-.post figcaption {
-  text-align: center;
-  font-size: 0.9rem;
-  font-style: italic;
-  color: var(--muted);
-  margin-top: 0.6rem;
-}
-
-/* =========================
-   Code blocks
-   ========================= */
-
-code {
-  font-size: 0.95em;
-}
-
-p code,
-li code,
-figcaption code {
-  background: var(--code-bg);
-  padding: 0.12em 0.35em;
-  border-radius: 6px;
-  border: 1px solid var(--border-soft);
-}
-
-pre {
-  border-radius: 12px;
-  padding: 1rem 1.1rem;
-  overflow-x: auto;
-  border: 1px solid var(--border-soft);
-}
-
-/* =========================
-   Other content polish
-   ========================= */
-
-blockquote {
-  border-left: 4px solid rgba(0, 0, 0, 0.18);
-  padding-left: 1rem;
-  color: rgba(0, 0, 0, 0.78);
-}
-
-table {
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border-bottom: 1px solid var(--border-soft);
-  padding: 0.5rem 0.7rem;
-}
-
-/* =========================
-   Responsive header
-   ========================= */
-
+/* Responsive: stack on small screens */
 @media screen and (max-width: 600px) {
   .header-inner {
     flex-direction: column;
@@ -198,7 +60,7 @@ td {
   }
 
   .custom-nav {
-    gap: 0.8rem;
     flex-wrap: wrap;
+    gap: 0.8rem;
   }
 }
