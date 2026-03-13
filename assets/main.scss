@@ -64,3 +64,38 @@
     gap: 0.8rem;
   }
 }
+
+.post-tags {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-tags a {
+  margin-right: 0.6rem;
+}
+
+/* Social links */
+
+.social-links {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 0.6rem;
+}
+
+.social-link {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #333;
+  background: #fff;
+  transition: all 0.15s ease;
+}
+
+.social-link:hover {
+  background: rgba(0,0,0,0.03);
+  border-color: rgba(0,0,0,0.2);
+}
