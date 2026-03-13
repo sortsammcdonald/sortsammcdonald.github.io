@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Initial Thoughts"
+date: 2020-11-02
+tags: [blog, ai, development]
+excerpt: First page of the site.
+license: CC-BY 4.0
+---
 Initial Thoughts
 ===
 
