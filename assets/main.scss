@@ -2,20 +2,34 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* Load Minima first */
 @import "minima";
 
-/* Your overrides below */
+/* =========================
+   Theme variables
+   ========================= */
 
-/* Layout polish */
+:root {
+  --text: #222;
+  --muted: #666;
+  --border: rgba(0, 0, 0, 0.12);
+  --border-soft: rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   Layout polish
+   ========================= */
+
 .wrapper {
   max-width: 72ch;
 }
 
-/* Header layout: make title left, nav right */
+/* =========================
+   Header
+   ========================= */
+
 .site-header {
   border-top: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid var(--border);
   min-height: auto;
 }
 
@@ -27,13 +41,11 @@
   padding: 0.9rem 0;
 }
 
-/* Ensure Minima floats don't fight flex */
 .site-title,
 .site-nav {
   float: none;
 }
 
-/* Nav spacing + style */
 .custom-nav {
   display: flex;
   align-items: center;
@@ -52,7 +64,6 @@
   text-decoration: underline;
 }
 
-/* Responsive: stack on small screens */
 @media screen and (max-width: 600px) {
   .header-inner {
     flex-direction: column;
@@ -65,39 +76,18 @@
   }
 }
 
+/* =========================
+   Post tags
+   ========================= */
+
 .post-tags {
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--muted);
 }
 
 .post-tags a {
   margin-right: 0.6rem;
-}
-
-/* Social links */
-
-.social-links {
-  display: flex;
-  gap: 0.8rem;
-  flex-wrap: wrap;
-  margin-top: 0.6rem;
-}
-
-.social-link {
-  padding: 0.45rem 0.75rem;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 999px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: #333;
-  background: #fff;
-  transition: all 0.15s ease;
-}
-
-.social-link:hover {
-  background: rgba(0,0,0,0.03);
-  border-color: rgba(0,0,0,0.2);
 }
 
 /* =========================
@@ -137,10 +127,13 @@
 .footer-top-link a:hover {
   text-decoration: underline;
 }
+/* =========================
+   Social links
+   ========================= */
 
 .social-links {
   display: flex;
-  gap: 0.75rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
   margin: 0;
 }
@@ -148,16 +141,17 @@
 .social-link {
   display: inline-flex;
   align-items: center;
-  padding: 0.4rem 0.75rem;
-  border: 1px solid var(--border-soft);
-  border-radius: 999px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text);
-  background: white;
+  transition: color 0.15s ease;
 }
 
 .social-link:hover {
-  background: rgba(0, 0, 0, 0.03);
-  text-decoration: none;
+  text-decoration: underline;
+  background: transparent;
 }
