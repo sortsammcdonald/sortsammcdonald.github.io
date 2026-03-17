@@ -127,6 +127,7 @@
 .footer-top-link a:hover {
   text-decoration: underline;
 }
+
 /* =========================
    Social links
    ========================= */
@@ -154,4 +155,42 @@
 .social-link:hover {
   text-decoration: underline;
   background: transparent;
+}
+
+/* =========================
+   Profile cards
+   ========================= */
+
+.profile-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.profile-card {
+  display: block;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  background: white;
+  min-width: 160px;
+  transition: all 0.15s ease;
+}
+
+.profile-card:hover {
+  border-color: var(--border);
+  background: rgba(0, 0, 0, 0.02);
+  transform: translateY(-2px);
+}
+
+.profile-title {
+  font-weight: 600;
+}
+
+.profile-handle {
+  font-size: 0.9rem;
+  color: var(--muted);
 }
