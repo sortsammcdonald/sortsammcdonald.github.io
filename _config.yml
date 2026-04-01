@@ -12,9 +12,10 @@ description: My learning platform
 github_username: sortsammcdonald 
 repository:  sortsammcdonald/sortsammcdonald.github.io
 
-# Email and twitter are optional:
+# Email and social links are optional:
 email:
-twitter_username: wsmcd
+bluesky_url: https://bsky.app/profile/sammcdonald.me
+bluesky_handle: sammcdonald.me
 
 # Set this to true to get LaTeX math equation support
 use_math: 
