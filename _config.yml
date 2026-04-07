@@ -10,6 +10,7 @@ title: Quick Learning
 description: My learning platform
 url: "https://ql-blog.com"
 baseurl: ""
+image: assets/favicon-32x32.png
 
 github_username: sortsammcdonald 
 repository:  sortsammcdonald/sortsammcdonald.github.io
