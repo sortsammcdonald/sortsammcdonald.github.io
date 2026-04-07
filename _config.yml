@@ -8,6 +8,8 @@
 
 title: Quick Learning 
 description: My learning platform
+url: "https://ql-blog.com"
+baseurl: ""
 
 github_username: sortsammcdonald 
 repository:  sortsammcdonald/sortsammcdonald.github.io
