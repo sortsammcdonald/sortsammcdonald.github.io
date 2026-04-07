@@ -7,10 +7,10 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Quick Learning 
-description: My learning platform
+description: A blog about programming, tools, and ongoing technical learning.
 url: "https://ql-blog.com"
 baseurl: ""
-image: assets/favicon-32x32.png
+image: /assets/favicon-32x32.png
 
 github_username: sortsammcdonald 
 repository:  sortsammcdonald/sortsammcdonald.github.io
