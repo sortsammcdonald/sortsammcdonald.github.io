@@ -1,6 +1,6 @@
 ---
 title: "Blog revamp (again)
-date: "2026-04-08"
+date: 2026-04-08
 description: "An account on rebuilding my Astro blog in GitHub pages."
 author: "William Samuel McDonald"
 tags: ["blogging", "github-pages", "astro", "jekyll", "llm", "vibe-coding", "workflow", "rebuild"]
