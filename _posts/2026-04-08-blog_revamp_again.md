@@ -1,5 +1,5 @@
 ---
-title: "Blog revamp (again)
+title: "Blog revamp (again)"
 date: 2026-04-08
 description: "An account on rebuilding my Astro blog in GitHub pages."
 author: "William Samuel McDonald"
