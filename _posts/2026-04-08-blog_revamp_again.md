@@ -1,6 +1,6 @@
 ---
 title: "Blog revamp (again)
-pubDate: "2026-04-08"
+date: "2026-04-08"
 description: "An account on rebuilding my Astro blog in GitHub pages."
 author: "William Samuel McDonald"
 tags: ["blogging", "github-pages", "astro", "jekyll", "llm", "vibe-coding", "workflow", "rebuild"]
@@ -19,7 +19,7 @@ In this post, I’ll walk through how I set up the new version of the site. It m
 Before getting into that, it’s worth saying that I’m not a web developer. Most of the issues I had with Astro were the result of my own lack of experience rather than the framework itself. I mention this to avoid discouraging anyone from using Astro. It’s a strong choice in many ways, just perhaps better suited to someone with more experience in web development[^1].
 
 <img 
-  src="/assets/images/blog-revamp.jpg" 
+  src="/assets/2026.04.08-blog_revamp_image.jpg" 
   alt="Notebook and pen on a desk beside a laptop"
   width="800"
   loading="lazy">
