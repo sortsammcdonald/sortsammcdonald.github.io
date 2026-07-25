@@ -22,7 +22,13 @@ Increasingly, I have been trying to focus on actually *making* things, rather th
 
 While I think there is clearly a place for study, how can we have ideas if we don't broaden our knowledge and abilities? I don't want to study for the sake of it. I feel that learning should manifest into something real.
 
+<img 
+  src="/assets/22026.07.25-android_pen.jpg" 
+  alt="Android writing with a pen"
+  width="800"
+  loading="lazy">
 
+*Image generated with Adobe Firefly*
 ## What did I make?
 
 So from a more material standpoint, what have I been doing? 
