@@ -1,4 +1,14 @@
-# What I've Been Up To #6
+---
+title: "What I've Been Up To 6"
+date: 2026-07-25
+description: "Reflections on what I've been doing recently."
+author: "William Samuel McDonald"
+tags: ["Reflections", "Side Projects", "Programming", "Haskell", "Python", "Advent of Code", "Computer Graphics", "AI", "Blogging", "Data Archiving"]
+license: "CC by 4.0"
+---
+
+
+# What I've Been Up To 6
 
 ## Reflections on not posting in a while...
 
