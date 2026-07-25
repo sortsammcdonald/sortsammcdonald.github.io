@@ -58,3 +58,6 @@ Next, I'll probably try to rewrite my JSON archiving script in Haskell by hand (
 * **Blog Revamp Post:** [ql-blog.com/2026/04/08/blog_revamp_again.html](https://ql-blog.com/2026/04/08/blog_revamp_again.html)
 * **Writing Archive Repository:** [github.com/sortsammcdonald/writing_archive](https://github.com/sortsammcdonald/writing_archive)
 * **Ray Tracing in a Weekend:** [raytracing.github.io](https://raytracing.github.io/)
+
+---
+<a href="https://ql-blog.com/2026-07-25-what_i_ve_been_up_to_6..html">What I've been up to 6</a> © 2026 by <a href="https://www.sammcdonald.me">William Samuel McDonald</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
