@@ -64,6 +64,7 @@ Next, I'll probably try to rewrite my JSON archiving script in Haskell by hand (
 
 
 ## Discuss
+
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:nhluokqe4cvj3ugpitvoo6lz/app.bsky.feed.post/3mrsbcsdqbc2m" data-bluesky-cid="bafyreiggzrahejtfqa4t4suqs2g76oogadcxosnuaoqbprluu4gjbc5trq" data-bluesky-embed-color-mode="system"><p lang="en">New update! 
 
 ql-blog.com/2026/07/25/w...<br><br><a href="https://bsky.app/profile/did:plc:nhluokqe4cvj3ugpitvoo6lz/post/3mrsbcsdqbc2m?ref_src=embed">[image or embed]</a></p>&mdash; Sam McDonald (<a href="https://bsky.app/profile/did:plc:nhluokqe4cvj3ugpitvoo6lz?ref_src=embed">@sammcdonald.me</a>) <a href="https://bsky.app/profile/did:plc:nhluokqe4cvj3ugpitvoo6lz/post/3mrsbcsdqbc2m?ref_src=embed">July 29, 2026 at 5:43 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
